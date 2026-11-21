@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated results (the csv/ folder itself is kept)
+csv/*
+!csv/.gitkeep
+
+# Generated demo dataset
+sample_images/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Personal photos
+Samples/
