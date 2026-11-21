@@ -23,6 +23,8 @@ image-hashing/
 ├── run_app.bat         One-click launcher for Windows
 ├── web/
 │   └── index.html      Web interface (all hashing runs in the browser)
+├── docs/
+│   └── SRS.md          Software Requirements Specification
 ├── csv/                Scan results are saved here (.csv and .xlsx)
 ├── requirements.txt
 ├── LICENSE
@@ -97,7 +99,7 @@ Detection rates are the share of edited copies correctly matched to their origin
 
 ## Requirements covered
 
-Built from a Software Requirements Specification for an image hashing mini-project: JPEG/PNG input, perceptual hashes, Hamming-distance comparison, threshold-based duplicate flagging, exported results, a simple interface, robustness evaluation, and graceful error handling.
+Built from the [Software Requirements Specification](docs/SRS.md) for an image hashing mini-project: JPEG/PNG input, perceptual hashes, Hamming-distance comparison, threshold-based duplicate flagging, exported results, a simple interface, robustness evaluation, and graceful error handling.
 
 ## License
 
